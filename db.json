@@ -1,0 +1,204 @@
+{
+  "books": [],
+  "products": [
+    {
+      "id": 8,
+      "images": "http://res.cloudinary.com/dkpfaleot/image/upload/v1743765117/react/qg1sdxmkur14vmetskvz.jpg",
+      "name": "Nike Air Jordan 1 Retro",
+      "categoryId": "3",
+      "price": "2000000",
+      "type": "simple",
+      "parent": 0,
+      "additionalImages": [
+        "data:image/jpeg;base64,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",
+        "https://bdsneaker.vn/watermark/57/z4489940550464-8782f6b10c55609218e48fc70994561c.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRosn8iBqn4NaXwGhThKUCleUICjeIMn3sT5w&s"
+      ],
+      "category": {
+        "name": "Giày dép",
+        "id": 3
+      }
+    },
+    {
+      "id": 9,
+      "images": "http://res.cloudinary.com/dkpfaleot/image/upload/v1743765173/react/jrxim7cdqvo6a0lxn5nw.jpg",
+      "name": "Air Jordan 1 Low",
+      "categoryId": "3",
+      "price": "2000000",
+      "type": "simple",
+      "parent": 0,
+      "additionalImages": [
+        "https://images-cdn.ubuy.co.in/634ed08fed8b4e06e45a09ff-nike-mens-air-force-1-39-07-dc2911.jpg",
+        "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/04da14bb-ab6b-48ab-a31b-ffcbfeb8ee32/W+AIR+FORCE+1+%2707+NEXT+NATURE.png",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRosn8iBqn4NaXwGhThKUCleUICjeIMn3sT5w&s"
+      ]
+    },
+    {
+      "id": 10,
+      "images": "http://res.cloudinary.com/dkpfaleot/image/upload/v1743765276/react/uttw2oqnpoatfik7yafy.jpg",
+      "name": "Nike Air Force 1 Low",
+      "categoryId": "3",
+      "price": "3000000",
+      "type": "simple",
+      "parent": 0,
+      "additionalImages": [
+        "https://images-cdn.ubuy.co.in/634ed08fed8b4e06e45a09ff-nike-mens-air-force-1-39-07-dc2911.jpg",
+        "https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/04da14bb-ab6b-48ab-a31b-ffcbfeb8ee32/W+AIR+FORCE+1+%2707+NEXT+NATURE.png",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRosn8iBqn4NaXwGhThKUCleUICjeIMn3sT5w&s"
+      ]
+    },
+    {
+      "id": 11,
+      "images": "http://res.cloudinary.com/dkpfaleot/image/upload/v1743769628/react/osh4pyc9onpmq95sdjlz.jpg",
+      "name": "Macbook Pro M2 13inch 8GB 256GB chính hãng ",
+      "categoryId": "5",
+      "price": "30000000",
+      "type": "simple",
+      "parent": 0,
+      "category": {
+        "name": "Laptop",
+        "id": 5
+      }
+    },
+    {
+      "id": 12,
+      "images": "http://res.cloudinary.com/dkpfaleot/image/upload/v1744158389/react/utlbctbvheew12hhvqdb.jpg",
+      "name": "Acer Predator Helios Neo 16 PHN16-71-76H5 | Core i7-13650HX 16GB 512GB RTX 4060 8GB 16'' WUXGA IPS 165Hz (New Outlet)",
+      "categoryId": "5",
+      "price": "25490000",
+      "type": "simple",
+      "parent": 0
+    },
+    {
+      "id": 13,
+      "images": "http://res.cloudinary.com/dkpfaleot/image/upload/v1744158566/react/lp4xornhjiiluqwsmnzx.webp",
+      "name": "Búp Bê Pop Mart Labubu Time To Chill Vinyl Plush Màu Xanh",
+      "categoryId": "2",
+      "price": "2890000",
+      "type": "simple",
+      "parent": 0
+    },
+    {
+      "id": 14,
+      "images": "http://res.cloudinary.com/dkpfaleot/image/upload/v1744158665/react/c6fp0tzonvlbpwmsyo4p.webp",
+      "name": "Mô Hình Mega Labubu 400% Sketch ",
+      "categoryId": "2",
+      "price": "4686868",
+      "type": "simple",
+      "parent": 0
+    },
+    {
+      "id": 15,
+      "images": "http://res.cloudinary.com/dkpfaleot/image/upload/v1744158897/react/l9v20wjvac6bhqwbemd5.jpg",
+      "name": "Doraemon ",
+      "categoryId": "2",
+      "price": "68686",
+      "type": "simple",
+      "parent": 0
+    },
+    {
+      "id": 16,
+      "images": "http://res.cloudinary.com/dkpfaleot/image/upload/v1744160764/react/vvddh1xq44g5cehxxjtw.jpg",
+      "name": "MacBook Pro 16 inch M4 Max 2024 (128GB RAM| 1TB SSD)",
+      "categoryId": "5",
+      "price": "124230000",
+      "type": "simple",
+      "parent": 0
+    },
+    {
+      "id": 17,
+      "images": "http://res.cloudinary.com/dkpfaleot/image/upload/v1744160871/react/aiodovizekuvpltcowwl.jpg",
+      "name": "ZTE nubia Z60 Ultra (12GB|256GB) Snap 8 Gen 3 ",
+      "categoryId": "4",
+      "price": "10090000",
+      "type": "simple",
+      "parent": 0
+    },
+    {
+      "id": 18,
+      "images": "http://res.cloudinary.com/dkpfaleot/image/upload/v1744160982/react/woczciosvknl4ydl3xbj.jpg",
+      "name": "Iphone 16 Pro Max",
+      "categoryId": "4",
+      "price": "32168000",
+      "type": "simple",
+      "parent": 0
+    },
+    {
+      "id": 19,
+      "images": "http://res.cloudinary.com/dkpfaleot/image/upload/v1744161057/react/jvnfne6wnrad3tmas0mo.webp",
+      "name": "Iphone 20 Pro Max",
+      "categoryId": "4",
+      "price": "50000000",
+      "type": "simple",
+      "parent": 0
+    },
+    {
+      "id": 20,
+      "images": "http://res.cloudinary.com/dkpfaleot/image/upload/v1744633553/react/a6tadpd2riwnessqudln.jpg",
+      "name": "Iphone 16 Pro Max",
+      "categoryId": "4",
+      "price": "1000000",
+      "type": "simple",
+      "parent": 0
+    }
+  ],
+  "variants": [],
+  "carts": [],
+  "orders": [],
+  "users": [
+    {
+      "email": "aaa225@gmail.com",
+      "password": "$2a$10$4T7vHJL9txpFEe4wNUe3iO5r8TfguCLKvxzmztIXOI6zZwblEKc3W",
+      "name": "Vinh",
+      "role": "customer",
+      "id": 3
+    },
+    {
+      "email": "aaa226@gmail.com",
+      "password": "$2a$10$Vs.fm57mhnThUEIbPz3KPOdBaFsNP7/i4pATFt2kMYp/7km4YVStq",
+      "name": "Vinh",
+      "role": "customer",
+      "id": 4
+    },
+    {
+      "email": "aaa223@gmail.com",
+      "password": "$2a$10$4/WP.E580s6jyq/fUnn7megeDnTtgczl02Hqd7hy3AU8Bt3hi7ehW",
+      "name": "Vinh",
+      "role": "customer",
+      "id": 5
+    },
+    {
+      "email": "geminivnx2801@gmail.com",
+      "password": "$2a$10$xIRFOCvMQSDAijEKSAGExepc7nH/oMo3O7aXCvCC8Y.iYyyPAud7m",
+      "name": "Vinh",
+      "role": "admin",
+      "id": 6
+    },
+    {
+      "email": "geminivnx2800@gmail.com",
+      "password": "$2a$10$J9kEwfEPpU1NGJlRbQ6aQOOnk//kECgNJfkDnJuFQrrnqLJpg4EFq",
+      "name": "Vinh",
+      "role": "customer",
+      "status": "active",
+      "id": 7
+    }
+  ],
+  "categories": [
+    {
+      "name": "Mô hình",
+      "id": 2
+    },
+    {
+      "name": "Giày dép",
+      "id": 3
+    },
+    {
+      "name": "Điện thoại",
+      "id": 4
+    },
+    {
+      "name": "Laptop",
+      "id": 5
+    }
+  ]
+}

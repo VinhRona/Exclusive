@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/billl.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+   div {
+      position: relative;
+      display: inline-block;
+    }
+
+    img:first-child {
+      display: block;
+      width: 100%;
+    }
+
+    img:nth-child(2) {
+      position: absolute;
+      top: 50%;
+      left: 110px;
+      border-radius: 10px;
+      transform: translateY(-50%);
+    }
+
+    p {
+      font-family: Arial, sans-serif;
+      font-weight: 600;
+      color: rgba(2, 2, 173, 0.904);
+      font-size: 27px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      word-spacing: 2px;
+    }
+
+    .div2 {
+      position: absolute;
+      margin-top: 334px;
+      margin-left: -380px;
+    }
+
+    .div2 img {
+      width: 300px;
+      height: 30px;
+    }
+
+    .div3 img {
+      width: 580px;
+      height: 200px;
+    }
+
+    .div3 {
+      position: absolute;
+      margin-top: 844px;
+      margin-left: -710px;
+    }
+
+    .div3 p {
+      font-family: "Arial", sans-serif;
+      font-size: 25px;
+      color: #898989;
+      text-align: center;
+      line-height: 1.9;
+      max-width: 590px;
+      margin: 0 auto;
+      font-weight: 400;
+      text-transform: none;
+      margin-top: -190px;
+    }
+
+    /* Nút lưu ảnh */
+    .download-btn {
+      position: absolute;
+      top: 1080px; /* Điều chỉnh vị trí */
+      left: -500px;
+      padding: 10px 15px;
+      font-size: 16px;
+      background-color: blue;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .download-btn:hover {
+      background-color: darkblue;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <img style="filter: brightness(70%);" src="./hi_files/hihi.jpg" alt="">
+  </div>
+  <img style="margin-top: -170px; margin-left: 10px;" src="./hi_files/2.jpg" alt="">
+  
+  <div class="div2">
+    <img src="./hi_files/22.jpg" alt="">
+    <p style="margin-top: -34px;">0833383322</p>
+  </div>
+
+  <div class="div3">
+    <img id="imageToSave" src="./hi_files/ngon.jpg" alt="">
+    <p>Giao dịch không thực hiện được do tính năng chuyển khoản nhanh của ngân hàng đang tạm thời gián đoạn. Bạn vui lòng thử lại sau(MC412)</p>
+  </div>
+
+  <button class="download-btn" onclick="downloadImage()">Lưu ảnh</button>
+
+  <script>
+    function downloadImage() {
+      let img = document.getElementById("imageToSave").src;
+      let link = document.createElement("a");
+      link.href = img;
+      link.download = "image.jpg"; // Đặt tên file khi tải về
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+  </script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
